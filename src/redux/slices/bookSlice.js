@@ -12,7 +12,7 @@ const initialState = [
   {
     id: 2,
     title: 'To Kill a Mockingbird',
-    other: 'Harper Lee',
+    author: 'Harper Lee',
     image: 'https://picsum.photos/201.jpg',
     genre: 'Fiction',
     year: 1960,
@@ -20,7 +20,7 @@ const initialState = [
   {
     id: 3,
     title: "George Orwell's 1984",
-    other: 'George Orwell',
+    author: 'George Orwell',
     image: 'https://picsum.photos/205.jpg',
     genre: 'Dystopian',
     year: 1949,
@@ -39,11 +39,11 @@ const bookSlice = createSlice({
       state.push(newBook);
     },
     deleteBook: (state, action) => {
-      return state.filter(book => book.id !== action.payload.id);
+       return state.filter(book => book.id !== action.payload);
     },
     updateBook: (state, action) => {
       const { id, book } = action.payload;
-      const index = state.findIndex(book => book.id === action.payload.id);
+      const index = state.findIndex(item => item.id === id);
       if (index !== -1) {
         state[index] = { ...state[index], ...book };
       }
