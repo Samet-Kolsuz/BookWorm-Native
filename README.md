@@ -2,8 +2,36 @@
 
 BookWorm, React Native ile geliştirilmiş modern bir kitap koleksiyonu yönetim uygulamasıdır. Kitaplarınızı kolayca ekleyebilir, düzenleyebilir ve silebilirsiniz.
 
+## 📸 Uygulama Görselleri
+
+<div align="center">
+
+### 📱 Ekran Görüntüleri
+
+| Ana Sayfa | Kitap Detayı | Kitap Ekleme |
+|:---:|:---:|:---:|
+| <img src="./screenshots/home-page.png" alt="Ana Sayfa" width="200"/> | <img src="./screenshots/book-detail.png" alt="Kitap Detayı" width="200"/> | <img src="./screenshots/add-book.png" alt="Kitap Ekleme" width="200"/> |
+| Kitap koleksiyonu listesi | Detay bilgileri ve düzenleme | Yeni kitap ekleme formu |
+
+</div>
+
+### 🎯 Kullanım Akışı
+1. **📖 Listele**: Ana sayfada tüm kitapları görüntüleyin
+2. **👆 Tıkla**: Kitaba tıklayarak detay sayfasını açın
+3. **✏️ Düzenle**: Edit butonuyla kitap bilgilerini güncelleyin
+4. **�️ Sil**: Trash butonuyla kitabı koleksiyondan çıkarın
+5. **➕ Ekle**: Ana sayfadan yeni kitap ekleyin
+
+> 📷 **Ekran Görüntüleri**: Uygulamayı çalıştırıp ekran görüntülerini `screenshots/` klasörüne ekleyebilirsiniz.
+
 ## ✨ Özellikler
 
+### 🎬 Demo Video
+<div align="center">
+  <img src="https://via.placeholder.com/400x300/FF3B30/FFFFFF?text=Demo+Video%0A%28GIF+ya+da+Video%29" alt="Demo Video" width="400"/>
+</div>
+
+### 📋 Ana Özellikler
 - 📖 **Kitap Listesi**: Tüm kitaplarınızı güzel bir arayüzde görüntüleyin
 - ➕ **Kitap Ekleme**: Yeni kitapları koleksiyonunuza ekleyin
 - ✏️ **Kitap Düzenleme**: Mevcut kitap bilgilerini güncelleyin
