@@ -1,6 +1,6 @@
 const pages = {
-    HOMEPAGES: "HOMEPAGES",
-    BOOKDETAILS: "BOOKDETAILS",
-    CREATEPAGES: "CREATEPAGES",
+    HOMEPAGE: "HOMEPAGE",
+    BOOKDETAIL: "BOOKDETAIL",
+    CREATEPAGE: "CREATEPAGE",
 };
 export default pages;

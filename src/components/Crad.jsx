@@ -1,20 +1,24 @@
 import { useNavigation } from "@react-navigation/native";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import pages from "../constants";
-import BookDetail from "../screens/BookDetail";
 
-const renderCard = ({ item }) => (
-    <TouchableOpacity style={styles.card}>
+const Card = ({ item }) => {
+    const navigation = useNavigation();
+    const {BOOKDETAIL} = pages;
+    
+    
+    return(
+    <TouchableOpacity style={styles.card}
+    onPress={()=> navigation.navigate(BOOKDETAIL, { item })}>
         <View style={styles.imagecontainer}>
             <Image source={{ uri: item.image }} style={styles.img} />
         </View>
         <Text style={styles.carditem}>{item.title}</Text>
         <Text style={styles.cardSubditem}>{item.year}</Text>
-
     </TouchableOpacity>
-    )
+    )}
 
-export default renderCard;
+export default Card;
 
 const styles = StyleSheet.create({
     card: {

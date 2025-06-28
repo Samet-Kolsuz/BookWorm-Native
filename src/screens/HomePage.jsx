@@ -1,10 +1,12 @@
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import renderCard from '../components/Crad';
+import Card from '../components/Crad';
+import pages from '../constants';
 
 const HomePage = ({ navigation }) => {
   const books = useSelector((state) => state.books);
+  const {CREATEPAGE}= pages;
 
   useEffect(() => {
     navigation.setOptions({
@@ -15,18 +17,16 @@ const HomePage = ({ navigation }) => {
   return (
     <View style={{ flex: 1 }}>
       <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
-        <TouchableOpacity style={styles.btn}>
+        <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('CREATEPAGE')}>
           <Text style={{ color: "white" }}>Yeni Kitap Ekle</Text>
         </TouchableOpacity>
       </View>
       <View style={{ flex: 1 }}>
         <FlatList
           data={books}
-          renderItem={renderCard}
+          renderItem={({item})=> <Card item={item}/>}
           contentContainerStyle={styles.cardcontainer}
           numColumns={2}
-
-
         />
       </View>
     </View>

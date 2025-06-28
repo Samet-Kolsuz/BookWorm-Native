@@ -5,7 +5,7 @@ const initialState = [
     id: 1,
     title: 'The Great Gatsby',
     author: 'F. Scott Fitzgerald',
-    image: 'https://picsum.photos/200', // .jpg olmadan
+    image: 'https://picsum.photos/200',
     genre: 'Fiction',
     year: 1925,
   },
