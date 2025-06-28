@@ -1,4 +1,11 @@
-# 📚 BookWorm - Kitap Yönetim Uygulaması
+# 📚 BookWorm - K### 🎯 Kullanım Akışı
+1. **📖 Listele**: Ana sayfada tüm kitapları görüntüleyin
+2. **👆 Tıkla**: Kitaba tıklayarak detay sayfasını açın
+3. **✏️ Düzenle**: Edit butonuyla kitap bilgilerini güncelleyin
+4. **🗑️ Sil**: Trash butonuyla kitabı koleksiyondan çıkarın
+5. **➕ Ekle**: Ana sayfadan yeni kitap ekleyin
+
+> ✅ **Gerçek Ekran Görüntüleri**: Uygulamanın çalışır halinin gerçek screenshot'ları yukarıda görüntülenmektedir.etim Uygulaması
 
 BookWorm, React Native ile geliştirilmiş modern bir kitap koleksiyonu yönetim uygulamasıdır. Kitaplarınızı kolayca ekleyebilir, düzenleyebilir ve silebilirsiniz.
 
@@ -8,10 +15,10 @@ BookWorm, React Native ile geliştirilmiş modern bir kitap koleksiyonu yönetim
 
 ### 📱 Ekran Görüntüleri
 
-| Ana Sayfa | Kitap Detayı | Kitap Ekleme |
+| Ana Sayfa | Kitap Düzenleme | Yeni Kitap Ekleme |
 |:---:|:---:|:---:|
-| <img src="./screenshots/home-page.png" alt="Ana Sayfa" width="200"/> | <img src="./screenshots/book-detail.png" alt="Kitap Detayı" width="200"/> | <img src="./screenshots/add-book.png" alt="Kitap Ekleme" width="200"/> |
-| Kitap koleksiyonu listesi | Detay bilgileri ve düzenleme | Yeni kitap ekleme formu |
+| <img src="./screenshots/anasayfa.png" alt="Ana Sayfa" width="250"/> | <img src="./screenshots/kitap-duzenle.png" alt="Kitap Düzenleme" width="250"/> | <img src="./screenshots/yeni-kitap-ekle.png" alt="Yeni Kitap Ekleme" width="250"/> |
+| Kitap koleksiyonu listesi | Kitap detayları ve düzenleme | Yeni kitap ekleme formu |
 
 </div>
 

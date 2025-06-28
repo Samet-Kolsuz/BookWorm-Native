@@ -2,10 +2,10 @@
 
 Bu klasör uygulama ekran görüntülerini içerir.
 
-## Eklenecek Dosyalar:
-- `home-page.png` - Ana sayfa ekran görüntüsü
-- `book-detail.png` - Kitap detay sayfası ekran görüntüsü
-- `add-book.png` - Kitap ekleme formu ekran görüntüsü
+## ✅ Mevcut Dosyalar:
+- ✅ `anasayfa.png` - Ana sayfa ekran görüntüsü
+- ✅ `kitap-duzenle.png` - Kitap düzenleme sayfası ekran görüntüsü
+- ✅ `yeni-kitap-ekle.png` - Yeni kitap ekleme formu ekran görüntüsü
 
 ## Ekran Görüntüsü Alma:
 1. Uygulamayı çalıştırın
